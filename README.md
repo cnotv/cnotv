@@ -29,16 +29,6 @@ I care about three things: **frontends that scale**, **pipelines that are fast**
 | 🔍 **Observability & security** | Real-time monitoring and error handling with Sentry, Grafana and SonarQube; RBAC with Keycloak and JWT |
 | 🤖 **Agents in production** | GitHub Agentic Workflows for triage and PR automation, governed by team guidelines and safeguards |
 
-## 🤖 Agentic tooling
-
-| Project | What it does | Stack |
-|---|---|---|
-| [**dashi**](https://github.com/cnotv/dashi) | Dashboard for coding-agent work across repositories: live Claude Code, Codex and OpenCode sessions, token spend, PRs with check gates, screenshots and videos, operable from the phone | TypeScript, Node |
-| [**agent-base**](https://github.com/cnotv/agent-base) | One shared set of agent skills, rules, hooks and PR-preview workflows, read by Claude Code and Codex in every repo | Agent Skills, GitHub Actions, Playwright |
-| [**agentic-extension**](https://github.com/cnotv/agentic-extension) | Rancher UI extension + Kubernetes controller that catalogs gh-aw agentic workflows, dispatches them and tracks run, cost and outcome stats | Vue, Rancher Shell, Kubernetes CRDs |
-| [**mobile-coder**](https://github.com/cnotv/mobile-coder) | Pick a GitHub issue on your phone, tap once, get a draft PR: a Claude agent loop running entirely in the browser | Vue, Anthropic SDK, Zod |
-| [**offee**](https://github.com/cnotv/offee) | Local-first office assistant: fills forms, drafts replies and translates on local models, with nothing leaving the machine | Local LLMs |
-
 ## 🏢 Domain experience
 
 - **Enterprise infrastructure, Kubernetes & AI** at **SUSE** (2022–now): multi-cluster management for enterprises and public-sector organizations, with AI-driven development workflows.
